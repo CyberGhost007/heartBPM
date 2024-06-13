@@ -1,6 +1,12 @@
-# heartbeat
+# HeartBPM
 
-A new Flutter project.
+An app that measures the heart rate of a person using a camera and a flashlight.
+
+<p align="center">
+  <img src="https://github.com/CyberGhost007/heartBPM/assets/29411278/873a5eff-acfe-42cb-a527-a48e0ee910a5" width="45%" />
+  <img src="https://github.com/CyberGhost007/heartBPM/assets/29411278/aaf0d9e8-d597-4d43-9284-46247fa84438" width="45%" />
+</p>
+
 
 ## Getting Started
 
