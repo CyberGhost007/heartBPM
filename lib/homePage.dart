@@ -386,9 +386,9 @@ class HomePageView extends State<HomePage> with SingleTickerProviderStateMixin {
       }
       if (counter > 0) {
         bpm = bpm / counter;
-        print(bpm);
         setState(() {
           _bpm = ((1 - _alpha) * _bpm + _alpha * bpm).toInt();
+          _valueNotifier.value = _bpm.toDouble();
         });
       }
       await Future.delayed(Duration(
